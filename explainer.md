@@ -206,8 +206,8 @@ to make to any colors based on the color scheme and force-dark modes.
 
 When a CSS filter is applied to an element, that element is put
 into a graphics layer and the filter is applied to the layer
-before compositing it to the page. This not only adds computational
-cost, but it necessarily applies to an entire subtree of eleemnts.
+before compositing it to the viewport. This not only adds computational
+cost, but it necessarily applies to an entire subtree of elements.
 It's not possible to only apply a filter to a parent element but
 not its child elements, for example - unless you can apply a
 complementary filter to the children.
