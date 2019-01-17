@@ -41,15 +41,15 @@ of their own sites.
 
 * Battery: on OLED displays, dark pixels consume less power than light ones, so
   a dark theme can use
-  [as much as 60% less power][https://www.phonearena.com/news/Google-promotes-the-use-of-Dark-Mode_id110831].
+  [as much as 60% less power](https://www.phonearena.com/news/Google-promotes-the-use-of-Dark-Mode_id110831).
 * Accessibility: many people have an easier time reading light text on a
   dark background.
 * User preference: Some people find a dark theme more aesthetically pleasing.
 
 ## History
 
-Dark Mode has actually been around for decades under a different name
-- until recently it was typically known as High Contrast Mode. While
+Dark Mode has actually been around for decades under a different name.
+Until recently it was typically known as High Contrast Mode. While
 the recent focus has been on improving battery life, millions of users
 with low vision have been relying on dark mode on desktop computers
 because they find it easier to see, and this has included support in
@@ -96,12 +96,12 @@ rules for top sites, so doesn't scale well. Impacts performance.
 
 ### Approach 4: Smart inversion
 
-[iOS has a Smart Invert feature][https://support.apple.com/en-us/HT207025]
+[iOS has a Smart Invert feature](https://support.apple.com/en-us/HT207025)
 that reverses all colors on the display,
 except for images, media, and some apps that use dark color styles.
 Developers can opt out of smart invert and handle it themselves on
 a per-view level using
-[accessibilityIgnoresInvertColors][https://developer.apple.com/documentation/uikit/uiview/2865843-accessibilityignoresinvertcolors].
+[accessibilityIgnoresInvertColors](https://developer.apple.com/documentation/uikit/uiview/2865843-accessibilityignoresinvertcolors).
 
 Pros: This provides a good experience for most apps while giving
 developers the option to have full control.
@@ -117,9 +117,9 @@ for a web site to opt-out and get more control over their own theme.
 
 ## Existing prefers-color-scheme media query
 
-The [Media Queries Level 5][https://drafts.csswg.org/mediaqueries-5[
+The [Media Queries Level 5](https://drafts.csswg.org/mediaqueries-5[
 spec proposes a new
-[prefers-color-scheme][https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme]
+[prefers-color-scheme](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme)
 media feature, with possible values of no-preference, light, and
 dark.
 
