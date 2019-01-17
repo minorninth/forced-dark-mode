@@ -117,7 +117,7 @@ for a web site to opt-out and get more control over their own theme.
 
 ## Existing prefers-color-scheme media query
 
-The [Media Queries Level 5](https://drafts.csswg.org/mediaqueries-5[
+The [Media Queries Level 5](https://drafts.csswg.org/mediaqueries-5)
 spec proposes a new
 [prefers-color-scheme](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme)
 media feature, with possible values of no-preference, light, and
@@ -186,19 +186,19 @@ If both color-scheme and invert were to be implemented, they could
 overlap and it would have to be decided which takes precedence if
 both are provided and conflict.
 
-If the value of the invert property is set to '''rgb''',
+If the value of the invert property is set to ```rgb```,
 all colors for that element and its descendants are painted with
 the RGB inverse color (R' = 1.0 - R, G' = 1.0 - G, B' = 1.0 - B).
 
-If the value of the invert property is set to '''luminance''',
+If the value of the invert property is set to ```luminance```,
 all colors for that element and its descendants are painted with
 the luminance component of the color in HSL space replaced with its
 inverse (L' = 1.0 - L).
 
-If the value of the invert property is set to '''none''',
+If the value of the invert property is set to ```none```,
 colors will be unchanged.
 
-If the value of the invert property is set to '''auto'''
+If the value of the invert property is set to ```auto```
 (the default), the browser would be able to choose what modifications
 to make to any colors based on the color scheme and force-dark modes.
 
